@@ -1,5 +1,5 @@
 from fastapi import FastAPI,status
-from pydantic import constr,BaseModel
+from pydantic import BaseModel,constr
 from uuid import UUID, uuid4
 from enum import Enum
 
